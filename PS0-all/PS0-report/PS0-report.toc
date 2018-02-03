@@ -1,0 +1,18 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Input Images}{2}{section.1}
+\contentsline {section}{\numberline {2}Color planes}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Swap the red and blue pixels }{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Creation of a monochrome image (M1g)}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Creation of a monochrome image (M1r) }{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Comparison }{4}{subsection.2.4}
+\contentsline {section}{\numberline {3}Replacement of pixels}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Selection and insertion of a ROI}{5}{subsection.3.1}
+\contentsline {section}{\numberline {4}Arithmetic and Geometric operation}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Determination of some statistical parameters}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Normalization of the image}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Shift}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Subtraction of the shifted version and the original version}{7}{subsection.4.4}
+\contentsline {section}{\numberline {5}Noise}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Noise introduction in the green monochrome image}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Noise introduction in the blue monochrome image}{8}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Comparison}{8}{subsection.5.3}

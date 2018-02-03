@@ -1,0 +1,20 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Creation of the edges image}{2}{section.1}
+\contentsline {section}{\numberline {2}Hough Method applied on the lines}{3}{section.2}
+\contentsline {section}{\numberline {3}Noise effect on the lines detection}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}First Step : Smoothing}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Second Step : Edges detection}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Third Step : Hough Algorithm for lines}{5}{subsection.3.3}
+\contentsline {section}{\numberline {4}Lines detection on a more complicated image}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}First Step : Smoothing}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Second Step : Edges detection}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Third Step : Hough Algorithm for lines}{7}{subsection.4.3}
+\contentsline {section}{\numberline {5}Circles Detection}{8}{section.5}
+\contentsline {section}{\numberline {6}Finding lines on a more realistic image}{9}{section.6}
+\contentsline {subsection}{\numberline {6.1}Application on a line finder}{9}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Problems with our line finder}{9}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Attempt to find the boundaries lines of the pen}{9}{subsection.6.3}
+\contentsline {section}{\numberline {7}Finding Circles on the same clutter image}{10}{section.7}
+\contentsline {section}{\numberline {8}Sensitivity to distortion}{12}{section.8}
+\contentsline {subsection}{\numberline {8.1}Application of the line and circles finder}{12}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}How to fix the problem ?}{12}{subsection.8.2}

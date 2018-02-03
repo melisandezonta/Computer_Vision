@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Creation of the edges image}{}% 1
+\BOOKMARK [1][-]{section.2}{Hough Method applied on the lines}{}% 2
+\BOOKMARK [1][-]{section.3}{Noise effect on the lines detection}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{First Step : Smoothing}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Second Step : Edges detection}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Third Step : Hough Algorithm for lines}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Lines detection on a more complicated image}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{First Step : Smoothing}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Second Step : Edges detection}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Third Step : Hough Algorithm for lines}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Circles Detection}{}% 11
+\BOOKMARK [1][-]{section.6}{Finding lines on a more realistic image}{}% 12
+\BOOKMARK [2][-]{subsection.6.1}{Application on a line finder}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.2}{Problems with our line finder}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.3}{Attempt to find the boundaries lines of the pen}{section.6}% 15
+\BOOKMARK [1][-]{section.7}{Finding Circles on the same clutter image}{}% 16
+\BOOKMARK [1][-]{section.8}{Sensitivity to distortion}{}% 17
+\BOOKMARK [2][-]{subsection.8.1}{Application of the line and circles finder}{section.8}% 18
+\BOOKMARK [2][-]{subsection.8.2}{How to fix the problem ?}{section.8}% 19

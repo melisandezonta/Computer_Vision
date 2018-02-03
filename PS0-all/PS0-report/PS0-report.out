@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Input Images}{}% 1
+\BOOKMARK [1][-]{section.2}{Color planes}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Swap the red and blue pixels }{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Creation of a monochrome image \(M1g\)}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Creation of a monochrome image \(M1r\) }{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Comparison }{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Replacement of pixels}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Selection and insertion of a ROI}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Arithmetic and Geometric operation}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Determination of some statistical parameters}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Normalization of the image}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Shift}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.4}{Subtraction of the shifted version and the original version}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Noise}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{Noise introduction in the green monochrome image}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Noise introduction in the blue monochrome image}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.3}{Comparison}{section.5}% 17
