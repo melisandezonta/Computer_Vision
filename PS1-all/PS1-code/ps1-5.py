@@ -74,11 +74,8 @@ for i in range(0,number_max_points):
      a_hough.append(int(round(a_min + max_points[0][i] * (a_max - a_min) / a_len)))
      b_hough.append(int(round(b_min + max_points[1][i] * (b_max - b_min) / b_len)))
      r_hough.append(int(round(r_min + max_points[2][i] * (r_max - r_min) / r_len)))
-
-circles = zip(a_hough,b_hough,r_hough)
-print(a_hough)
-print(b_hough)
-print(r_hough)
+a_new_hough, b_new_hough, r_new_hough = filter_circles(a_hough,b_hough,r_hough,40.0)
+circles = zip(a_new_hough,b_new_hough,r_new_hough)
 
 # Draw the circles  on the image
 

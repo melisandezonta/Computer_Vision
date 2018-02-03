@@ -102,9 +102,7 @@ def find_parallels(d, theta, theta_threshold, d_threshold_min, d_threshold_max):
     for i in range(len(peaks)):
         for j in range(len(peaks)):
             delta_d = abs(peaks[i, 0] - peaks[j, 0])
-            print('the delta_d is: ', delta_d)
             delta_theta = abs(peaks[i, 1] - peaks[j, 1])
-            print('the delta_theta is', delta_theta)
             if ((delta_theta < theta_threshold) & (not (i == j)) & (delta_d > d_threshold_min) & (
                     delta_d < d_threshold_max)):
                 keep[i, j] = 1
@@ -114,13 +112,22 @@ def find_parallels(d, theta, theta_threshold, d_threshold_min, d_threshold_max):
     return d_hough, theta_hough
 
 
-def filter_circles(a,b,r,r_threshold):
+def filter_circles(a,b,r,threshold_min):
     peaks = column_stack((a,b,r))
-    del_list - []
+    a_hough = []
+    b_hough = []
+    r_hough = []
     for i in range(len(peaks)):
+        circles_to_average_a = []
+        circles_to_average_b = []
+        circles_to_average_r = []
         for j in range(len(peaks)):
-            delta_r = abs(peaks[i, 2] - peaks[j, 2])
-            if (delta_r < r_threshold):
-                del_list.append([i])
-
-    return d_hough, theta_hough
+            distance_between_centers = sqrt(abs(peaks[i, 0] - peaks[j, 0]) ** 2 + abs(peaks[i, 1] - peaks[j, 1]) ** 2)
+            if (distance_between_centers <  threshold_min):
+                circles_to_average_a.append(peaks[j, 0])
+                circles_to_average_b.append(peaks[j, 1])
+                circles_to_average_r.append(peaks[j, 2])
+        a_hough.append(int(mean(circles_to_average_a)))
+        b_hough.append(int(mean(circles_to_average_b)))
+        r_hough.append(int(mean(circles_to_average_r)))
+    return a_hough, b_hough, r_hough
