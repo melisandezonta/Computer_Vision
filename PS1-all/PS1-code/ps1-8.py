@@ -15,7 +15,6 @@ import numpy as np
 from skimage.feature import peak_local_max
 
 
-
 os.chdir("/Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer-Vision/PS1-all/PS1-images/")
 
 

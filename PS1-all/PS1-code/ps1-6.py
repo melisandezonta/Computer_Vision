@@ -15,7 +15,6 @@ import numpy as np
 from copy import copy
 
 
-
 os.chdir("/Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer-Vision/PS1-all/PS1-images/")
 
 

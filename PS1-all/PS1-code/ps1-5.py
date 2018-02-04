@@ -14,8 +14,6 @@ from Functions import *
 import numpy as np
 
 
-
-
 os.chdir("/Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer-Vision/PS1-all/PS1-images/")
 
 

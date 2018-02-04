@@ -44,7 +44,6 @@ number_max_points = len(max_points[1])
 print('the number of max points is :',number_max_points)
 # Move back in the polar domain
 
-
 [m,n] = edges_noisy_smoothed_image.shape
 d_max = sqrt((m-1)**2+(n-1)**2)
 d = range(-ceil(d_max),ceil(d_max)+1,1)

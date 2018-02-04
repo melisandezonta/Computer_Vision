@@ -25,6 +25,7 @@ img_noisy_gray = cv2.cvtColor(img_noisy, cv2.COLOR_BGR2GRAY)
 
 # Gaussian smoothing
 
+
 gaussian_kernel = cv2.getGaussianKernel(13, 2.5)
 image_noisy_smoothed = cv2.sepFilter2D(img_noisy, -1, gaussian_kernel, gaussian_kernel)
 

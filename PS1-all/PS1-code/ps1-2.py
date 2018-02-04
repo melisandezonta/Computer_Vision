@@ -51,6 +51,7 @@ for i in range(0,number_max_points):
 
 # Move back to a RGB image so we can visualize the green lines on it
 
+
 img1 = cv2.imread('ps1-input0.png')
 
 

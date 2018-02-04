@@ -43,6 +43,7 @@ accumulator = cv2.cvtColor(H, cv2.COLOR_GRAY2BGR)
 
 # Search for the maximums
 
+
 threshold = 0.4
 max_points = find_max(H,threshold)
 number_max_points = len(max_points[1])

@@ -35,5 +35,6 @@ plt.imshow(image_noisy_smoothed, cmap='gray')
 plt.draw()
 cv2.imwrite("ps1-3-a-image-noisy-smoothed.png", image_noisy_smoothed)
 
+
 plt.show()
 
