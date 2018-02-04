@@ -11,18 +11,19 @@ from numpy import *
 from math import *
 
 
+#Function allowing the transform from Hough domain to polar domain
 def Hough_to_index(d_theta, d):
     d_idx = ((d_theta - d[0]) / ((d[-1]) - d[0])) * len(d)
 
     return d_idx
 
-
+#Function allowing the transform from polar domain to the Hugh
 def index_to_Hough(i, d):
     d_hough = d[0] + i * (d[-1] - d[0]) / len(d)
 
     return d_hough
 
-
+# Hough Transform for lines
 def Hough_Lines(edges, grid_size):
     [m, n] = edges.shape
     theta = range(-90, 91, grid_size)
@@ -46,7 +47,7 @@ def Hough_Lines(edges, grid_size):
 
     return H
 
-
+# Function allowing to find the peaks in the accumulator
 def find_max(H, threshold):
     max_H = H.max()
     threshold_max = threshold * max_H
@@ -55,7 +56,7 @@ def find_max(H, threshold):
 
     return inds
 
-
+# Function drawing the lines given the peaks
 def draw_lines(img, d, theta):
     for i in range(0, len(d)):
         # print(d[i],theta[i])
@@ -70,6 +71,7 @@ def draw_lines(img, d, theta):
         cv2.line(img, (x1, y1), (x2, y2), (0, 255, 127), 2)
 
 
+# Hough Transform for circles
 def Hough_Circles(edges, r_min, r_max, grid_size, a_min, a_max, b_min, b_max, a_len, b_len, theta_test):
     [m, n] = edges.shape
     r_len = r_max - r_min
@@ -93,7 +95,7 @@ def Hough_Circles(edges, r_min, r_max, grid_size, a_min, a_max, b_min, b_max, a_
 
     return H
 
-
+# Function allowing to extract the parallels among all the detected lines
 def find_parallels(d, theta, theta_threshold, d_threshold_min, d_threshold_max):
     peaks = column_stack((d, theta))
     print('length before filtering', len(peaks))
@@ -111,7 +113,7 @@ def find_parallels(d, theta, theta_threshold, d_threshold_min, d_threshold_max):
     theta_hough = peaks[add_list, 1]
     return d_hough, theta_hough
 
-
+# Function allowing to obtain single circles and not superposed ones
 def filter_circles(a,b,r,threshold_min):
     peaks = column_stack((a,b,r))
     a_hough = []

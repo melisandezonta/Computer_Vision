@@ -68,7 +68,7 @@ plt.draw()
 cv2.imwrite("ps1-2-edges.png",edges)
 
 plt.subplot(2,2,2)
-plt.imshow(cv2.cvtColor(accumulator, cv2.COLOR_BGR2RGB))
+plt.imshow(cv2.cvtColor(accumulator, cv2.COLOR_BGR2RGB), interpolation='nearest')
 plt.draw()
 cv2.imwrite("ps1-2-accu-circled.png",accumulator)
 

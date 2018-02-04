@@ -31,6 +31,7 @@ gaussian_kernel = cv2.getGaussianKernel(11, 1.7)
 
 image_noisy_smoothed = cv2.sepFilter2D(img_noisy, -1, gaussian_kernel, gaussian_kernel)
 
+# Plot
 plt.imshow(image_noisy_smoothed, cmap='gray')
 plt.draw()
 cv2.imwrite("ps1-3-a-image-noisy-smoothed.png", image_noisy_smoothed)
