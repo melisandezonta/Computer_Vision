@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edebd547-61b5-4719-9b19-8a8da41640d4" name="Default" comment="Add of the filter_circles functions in the functions.py and modification of questions 5 and 7">
+    <list default="true" id="edebd547-61b5-4719-9b19-8a8da41640d4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Functions.py" afterPath="$PROJECT_DIR$/Functions.py" />
-      <change beforePath="$PROJECT_DIR$/ps1-2.py" afterPath="$PROJECT_DIR$/ps1-2.py" />
-      <change beforePath="$PROJECT_DIR$/ps1-3-c.py" afterPath="$PROJECT_DIR$/ps1-3-c.py" />
-      <change beforePath="$PROJECT_DIR$/ps1-4.py" afterPath="$PROJECT_DIR$/ps1-4.py" />
-      <change beforePath="$PROJECT_DIR$/ps1-5.py" afterPath="$PROJECT_DIR$/ps1-5.py" />
-      <change beforePath="$PROJECT_DIR$/ps1-7.py" afterPath="$PROJECT_DIR$/ps1-7.py" />
-      <change beforePath="$PROJECT_DIR$/ps1-8.py" afterPath="$PROJECT_DIR$/ps1-8.py" />
-      <change beforePath="$PROJECT_DIR$/../PS1-images/ps1-2-lines.png" afterPath="$PROJECT_DIR$/../PS1-images/ps1-2-lines.png" />
-      <change beforePath="$PROJECT_DIR$/../PS1-images/ps1-8-circles.png" afterPath="$PROJECT_DIR$/../PS1-images/ps1-8-circles.png" />
-      <change beforePath="$PROJECT_DIR$/../PS1-report/report.log" afterPath="$PROJECT_DIR$/../PS1-report/report.log" />
-      <change beforePath="$PROJECT_DIR$/../PS1-report/report.pdf" afterPath="$PROJECT_DIR$/../PS1-report/report.pdf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -404,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517674715861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add of the filter_circles functions in the functions.py and modification of questions 5 and 7">
+      <created>1517745786753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517745786753</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
