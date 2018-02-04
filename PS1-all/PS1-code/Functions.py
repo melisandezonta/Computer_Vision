@@ -67,7 +67,7 @@ def draw_lines(img, d, theta):
         y1 = int(y0 + 1000 * (a))
         x2 = int(x0 - 1000 * (-b))
         y2 = int(y0 - 1000 * (a))
-        cv2.line(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
+        cv2.line(img, (x1, y1), (x2, y2), (0, 255, 127), 2)
 
 
 def Hough_Circles(edges, r_min, r_max, grid_size, a_min, a_max, b_min, b_max, a_len, b_len, theta_test):

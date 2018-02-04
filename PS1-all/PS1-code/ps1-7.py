@@ -78,7 +78,7 @@ circles = zip(a_new_hough,b_new_hough,r_new_hough)
 # Draw the circles  on the image
 img_circles = cv2.cvtColor(image_noisy_smoothed, cv2.COLOR_GRAY2BGR)
 for a,b,r in circles:
-    cv2.circle(img_circles, (a, b), r, (0,255,0), 2)
+    cv2.circle(img_circles, (a, b), r, (0,255,127), 2)
 
 # Diverse plots
 

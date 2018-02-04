@@ -62,7 +62,7 @@ theta_hough = max_points[1]
 
 for i in range(0,number_max_points):
     radius = int(np.ceil(np.min([360, 360]) / 20))
-    cv2.circle(accumulator, (max_points[1][i], max_points[0][i]), radius, (0,255,0))
+    cv2.circle(accumulator, (max_points[1][i], max_points[0][i]), radius, (0,255,127))
 
 
 # Draw the edge lines on the image

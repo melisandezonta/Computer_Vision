@@ -72,14 +72,14 @@ for i in range(0,number_max_points):
      a_hough_circles.append(int(round(a_min + max_points[0][i] * (a_max - a_min) / a_len)))
      b_hough_circles.append(int(round(b_min + max_points[1][i] * (b_max - b_min) / b_len)))
      r_hough_circles.append(int(round(r_min + max_points[2][i] * (r_max - r_min) / r_len)))
-
-circles = zip(a_hough_circles,b_hough_circles,r_hough_circles)
+a_new_hough, b_new_hough, r_new_hough = filter_circles(a_hough_circles,b_hough_circles,r_hough_circles,50.0)
+circles = zip(a_new_hough,b_new_hough,r_new_hough)
 
 # Draw the circles  on the image
 
 img_circles = img_noisy.copy()
 for a,b,r in circles:
-    cv2.circle(img_circles, (a, b), r, (0,0,255), 2)
+    cv2.circle(img_circles, (a, b), r, (21,1,217), 2)
 
 
 ## Lines

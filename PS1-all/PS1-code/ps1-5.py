@@ -12,7 +12,7 @@ import cv2
 from matplotlib import pyplot as plt
 from Functions import *
 import numpy as np
-from skimage.feature import peak_local_max
+
 
 
 
@@ -58,7 +58,6 @@ H = Hough_Circles(edges_noisy_smoothed_image, r_min, r_max,1, a_min, a_max, b_mi
 
 threshold = 0.45
 max_points = find_max(H,threshold)
-#max_points = peak_local_max(H, min_distance=1, threshold_rel=threshold, exclude_border=False)
 number_max_points = len(max_points[1])
 print('the number of max_points is :', number_max_points)
 
@@ -81,7 +80,7 @@ circles = zip(a_new_hough,b_new_hough,r_new_hough)
 
 img_circles = cv2.cvtColor(image_noisy_smoothed, cv2.COLOR_GRAY2BGR)
 for a,b,r in circles:
-    cv2.circle(img_circles, (a, b), r, (0,255,0), 2)
+    cv2.circle(img_circles, (a, b), r, (0,255,127), 2)
 
 # Diverse plots
 
