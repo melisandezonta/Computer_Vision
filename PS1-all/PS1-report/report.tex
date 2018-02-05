@@ -84,7 +84,7 @@
 \vspace*{1cm}
 \begin{minipage}[t]{0.6\textwidth}
   \begin{flushleft} \large
-    \emph{Supervisor : }\\
+    \emph{Professor : }\\
     Cedric Pradalier \\
   \end{flushleft}
 \end{minipage}
@@ -120,18 +120,18 @@
 \label{ps1-1-a}
 \end{figure}
 
-The Figure 1 shows the result of our initial edge detection using the Canny edge detector.
+The Figure 1 is the result of the Canny edge detector to perform the original edge detection.
 
 \section{Hough Method applied on the lines}
 
  \begin{figure}[H]
 \begin{center}
 \begin{tabular}{cc}
-	\includegraphics[height=.4\textwidth]{ps1-1-a-original.png}&
-	\includegraphics[height=.4\textwidth]{ps1-2-edges.png}\\
+	\includegraphics[height=.3\textwidth]{ps1-1-a-original.png}&
+	\includegraphics[height=.3\textwidth]{ps1-2-edges.png}\\
 	a&b\\
 	\includegraphics[height=.4\textwidth]{ps1-2-accu-circled.png}&
-	\includegraphics[height=.4\textwidth]{ps1-2-lines.png}\\
+	\includegraphics[height=.3\textwidth]{ps1-2-lines.png}\\
 	c&d\\
 \end{tabular}
 \end{center}
@@ -141,11 +141,13 @@ The Figure 1 shows the result of our initial edge detection using the Canny edge
 \label{ps1-2}
 \end{figure}
 
-The Figure 2 shows the result of the voting in the accumulator and the associated image with the detected lines is shows in Figure 3.
-Since the computation for this image is rather quick, we choose to keep a bin size of 1 degree on the theta parameter, to get a fine detection.
-   
-The image being a 256px square, the maximum value of d is the diagonal, around 136. Thus we choose a bin size of 180 on the d parameter, resulting in a rectangular accumulator.
+The Figure 2-c is the result of the voting in the accumulator and the figure 2-d is the associated image with the detected lines. 
+In order to get the finest detection possible, a choice was made on the bins size.
 
+Concerning $\theta$  the length of the bin is $$\frac{180}{grid_{size}} + 1$$.
+Concerning $d$, the range for values varies from $-d_{max} to {d_max} with $$d_max = \sqrt{m^2+n^2}$, m the number of rows of the image and the number of columns. Hence the length of the bin is $2 \times d_{max}+1$.
+
+The image being a 256px square, the maximum value of d is the diagonal, around 362. Thus the choices we made for the bin result in a rectangular accumulator.
 
 \section{Noise effect on the lines detection}
 
@@ -178,7 +180,7 @@ The smoothed version using a Gaussian kernel is visible in Figure 3.
 \label{ps1-3-b}
 \end{figure}
 
-The edges resulting from the Canny edge detector on the original image are shown in Figure 4.a, while those detected on the noisy image are visible in Figure 4.b.
+The figure 4.a show the edges resulting from the Canny edge detector on the original image. The figure 4.b show the edges detected on the noisy image.
 
 \subsection{Third Step : Hough Algorithm for lines}
 
@@ -195,9 +197,9 @@ The edges resulting from the Canny edge detector on the original image are shown
 \label{ps1-3-c}
 \end{figure}
 
-In order to get a good result, we first had to convolve the image with a standard 3x3 Gaussian kernel in order to get an image smoothed with a sigma of a few pixels.
+In order to get a good result on the noisy image, we first had to get an image smoothed with a sigma of a few pixels meaning we first had to convolve the image with a standard Gaussian kernel.
 
-Afterwards, we used the Canny edge detector in order to get a relatively good quality of edges, meaning at least getting each of the 6 edges about halfway visible on the edge image. Even if some artifacts are still visible, in will not matter much since the majority of edges still lie on a line.
+Afterwards, we used the Canny edge detector in order to get a relatively good quality of edges, meaning getting each of the 9 edges as in the previous part.
 
 I finally used the Hough line detection method to extract the 6 edges, which required lowering the threshold to get all of them. We see on Figure 5.b that vertical edges are represented by multiple lines instead of a single one. This is due to the fact that peaks on the edge of the theta axis get wrapped around the matrix and detected twice). This results in several lines with a little difference in angle.
 
@@ -212,8 +214,7 @@ I finally used the Hough line detection method to extract the 6 edges, which req
 \label{ps1-4-a}
 \end{figure}
 
-
-The smoothed version of the pens and coins is visible in Figure 6.
+The Figure 6 shows the smoothed version of the pens and coins.
 
 \subsection{Second Step : Edges detection}
 
@@ -225,7 +226,7 @@ The smoothed version of the pens and coins is visible in Figure 6.
 \label{ps1-4-b}
 \end{figure}
 
-The Canny edge detection result is given in Figure 7.
+The Figure 7 shows the Canny edge detection result.
 
 \subsection{Third Step : Hough Algorithm for lines}
 
@@ -266,22 +267,23 @@ c
 \label{ps1-5}
 \end{figure}
 
-In order to detect the coins, we need to adapt the Hough transform to circles. We change our Hough space parameters, from polar coordinates to 3 parameters: the cartesian coordinates of the circle center and the radius of the circle.
+Now our aim is to detect the coins on the image, we have to change the Hough transform to adapt it for circles meaning we have to take in account 3 parameters which are the cartesian coordinates of the circle center and the radius of the circle.
 
-We use a slightly lighter smoothing than for the pen detection, since we do not care about their inner edges anymore (none of them is circular). We also use the same Canny edge detector parameters, which gives us the edges visible in Figure 9.b.
+We first have to operate a light smoothing indeed it's not as important as in the previous question since the inner edges are not circular.
+The Figure 9.b shows the result of the Canny edge detector.
 
-We estimate the radius of the coins to be between 15 and 30 pixels, which is necessary in order to limit the computation time of our algorithm. This is also something the standard OpenCV Hough detector offers.
+We estimate the radius of the coins to be between 15 and 30 pixels, which is necessary in order to limit the computation time of our algorithm. 
 
-For each edge point and each radius, we first computed the coordinates of the center for 180 values but in order to reduce the length of the computation an improvement of the algorithm was made by using the gradient to ?orient? the search for a potential center.
-We finally filter the circles using an extra parameter which gives the minimum distance between two centers, thus avoiding concentric circles (which are not among our targets for this application) and also filtering the closeby maximas.
-We get the resulting image shown in Figure 9.c.
+For each edge point and each radius, we first computed the coordinates of the center for 180 values BUT in order to reduce the length of the computation an improvement of the algorithm was made by using the gradient to orient the search for a potential center.
+
+Finally since the result gave some concentric circles superposed instead of a single, a "filtering" was made by taking into account the distance between the centers and by applying a threshold on it. A good solution seemed to take the mean circle for those really closed circles. We save then the radius and the center coordinate for that mean circle. It allows us to obtain the Figure 9.c. 
+
 
 \section{Finding lines on a more realistic image}
 
 \subsection{Application on a line finder}
 
-
-In the Figure 10.b are displayed the lines initially detected by our Hough transform (after a good smoothing to put aside the numerous edges of the text and barcode).
+The Figure 10.b is the result of the lines detection made by the Hough transform for lines after having tried to smoothe to put aside the edges of the text and barcode.
 
  \begin{figure}[H]
 \begin{center}
@@ -298,14 +300,15 @@ In the Figure 10.b are displayed the lines initially detected by our Hough trans
 
 \subsection{Problems with our line finder}
 
-We note that many lines are rightfully detected by the algorithm because of the magazine cover borders and geometric content. However, we successfully avoided any of the smaller text and barcode edges.
+Many lines are rightfully detected by the algorithm because of the magazine cover borders and geometric content. 
 
-As explained in the previous section, we will rely on the fact that the pens are composed of parallel edges, spaced by a certain amount of pixels, to filter out the undesirable edges.
+Now since we want to focus on the boundaries of the pen, we will rely on the fact that those lines are parallel edges, space by a minimal distance, in order to filter out the undesirable edges.
+
 
 \subsection{Attempt to find the boundaries lines of the pen}
 
 
-Applying a maximum distance and specifying the maximum angle between two lines to be considered parallel, we manage to extract the pens boundaries as visible in Figure 11.
+Applying a maximum distance (to avoid the magazine cover borders which are parallels too), a minimum distance (to avoid the superposed lines)and specifying the maximum and minimum angle between two lines to be considered parallel, we manage to extract the pens boundaries as visible in Figure 11.
 
 \begin{figure}[H]
 \centering
@@ -317,7 +320,8 @@ Applying a maximum distance and specifying the maximum angle between two lines t
 \section{Finding Circles on the same clutter image}
 
 
-Applying the Hough circle transform on the cluttered image, we manage to detect most of the coins, as shown in Figure 12.
+By applying the Hough circle transform on the cluttered image, we manage to detect some of the coins but not all. A tradeoff has to be made on the threshold. A lower threshold, even after having realized a really effective smoothing (as shown on Figure 12.b), was providing a lot of false alarms. Here this threshold avoids the false alarms but does not allow to obtain all the circles.
+The result is presented on Figure 12.c.
 
  \begin{figure}[H]
 \begin{center}
@@ -353,14 +357,14 @@ Applying the Hough circle transform on the cluttered image, we manage to detect 
 \label{ps1-7}
 \end{figure}
 
-Our two Hough transforms applied to a distorted image do not perform well (Figure 13.a). Even with a parallel lines filtering, which should help detect the pens even in this setup, we do not manage to extract any of their boundaries
-but still get unwanted edges.
+Our two Hough transforms applied to a distorted image do not perform well (Figure 13.c). Even with a parallel lines filtering, which should help detect the pens even in this setup, we do not manage to extract any of their boundaries but still get unwanted edges.
 
 However, the circles detection seems to perform slightly better, despite plenty of false alarms it seems that we detect several coins, as well as the false circle visible in the "n" letter.
 
 \subsection{How to fix the problem ?}
 
-In future enhancements of our program we might try to adapt the circle transform to detect ellipses. We would however probably face at least the same amount of false alarms as in the previous section, and would also need to implement further improvements.
+Future enhancements of our code would be to adapt the circle transform to an ellipse one. Indeed with the distortion, the circles become ellipses.We would however probably face at least the same amount of false alarms as in the previous section, and would also need to implement further improvements.
+
 Regarding the lines, we would need to adapt the smoothing and edge detection to also take into account the stronger impact of the shadows on this distorted version of the image. We could also add constraints on the filtered lines to look for lines at specific angles and with a specific number of close parallel edges.
 
 \end{document}

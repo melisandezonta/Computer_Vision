@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 FEB 2018 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 FEB 2018 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2020,7 +2020,7 @@ uter-Vision/PS1-all/PS1-images/ps1-1-a-original.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-1-a-original.png used on
  input line 130.
-(pdftex.def)             Requested size: 177.0595pt x 177.05879pt.
+(pdftex.def)             Requested size: 132.80049pt x 132.79747pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
 -Vision/PS1-all/PS1-images/ps1-2-edges.png, id=119, 256.96pt x 256.96pt>
@@ -2032,7 +2032,7 @@ uter-Vision/PS1-all/PS1-images/ps1-2-edges.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-2-edges.png used on inpu
 t line 131.
-(pdftex.def)             Requested size: 177.0595pt x 177.05879pt.
+(pdftex.def)             Requested size: 132.80049pt x 132.79747pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
 -Vision/PS1-all/PS1-images/ps1-2-accu-circled.png, id=120, 181.67876pt x 725.71
@@ -2057,7 +2057,7 @@ uter-Vision/PS1-all/PS1-images/ps1-2-lines.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-2-lines.png used on inpu
 t line 134.
-(pdftex.def)             Requested size: 177.0595pt x 177.05879pt.
+(pdftex.def)             Requested size: 132.80049pt x 132.79747pt.
  [2
 
  </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Compute
@@ -2075,7 +2075,7 @@ type png)
 uter-Vision/PS1-all/PS1-images/ps1-3-a-image-noisy-smoothed.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-3-a-image-noisy-smoothed
-.png used on input line 157.
+.png used on input line 159.
 (pdftex.def)             Requested size: 177.0595pt x 177.05879pt.
  [3 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Comp
 uter-Vision/PS1-all/PS1-images/ps1-2-edges.png (PNG copy)> </Users/melisandezon
@@ -2084,7 +2084,7 @@ images/ps1-2-accu-circled.png (PNG copy)> </Users/melisandezonta/Documents/Docu
 ments/GTL_courses_second_semester/Computer-Vision/PS1-all/PS1-images/ps1-2-line
 s.png (PNG copy)>]
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-3-b-edges.png, id=134, 256.96pt x 256.96pt>
+-Vision/PS1-all/PS1-images/ps1-3-b-edges.png, id=139, 256.96pt x 256.96pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-3-b-edges.png Graphic file (type png)
 
@@ -2092,11 +2092,11 @@ puter-Vision/PS1-all/PS1-images/ps1-3-b-edges.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-3-b-edges.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-3-b-edges.png used on in
-put line 172.
+put line 174.
 (pdftex.def)             Requested size: 177.0595pt x 177.05879pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-3-b-edges-image-noisy.png, id=135, 256.96pt x 25
+-Vision/PS1-all/PS1-images/ps1-3-b-edges-image-noisy.png, id=140, 256.96pt x 25
 6.96pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-3-b-edges-image-noisy.png Graphic file (typ
@@ -2106,11 +2106,11 @@ e png)
 uter-Vision/PS1-all/PS1-images/ps1-3-b-edges-image-noisy.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-3-b-edges-image-noisy.pn
-g used on input line 173.
+g used on input line 175.
 (pdftex.def)             Requested size: 177.0595pt x 177.05879pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-3-c-accu-circled.png, id=136, 181.67876pt x 725.
+-Vision/PS1-all/PS1-images/ps1-3-c-accu-circled.png, id=141, 181.67876pt x 725.
 71124pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-3-c-accu-circled.png Graphic file (type png
@@ -2120,11 +2120,11 @@ puter-Vision/PS1-all/PS1-images/ps1-3-c-accu-circled.png Graphic file (type png
 uter-Vision/PS1-all/PS1-images/ps1-3-c-accu-circled.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-3-c-accu-circled.png use
-d on input line 188.
+d on input line 190.
 (pdftex.def)             Requested size: 55.40778pt x 221.32687pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-3-c-lines.png, id=137, 256.96pt x 256.96pt>
+-Vision/PS1-all/PS1-images/ps1-3-c-lines.png, id=142, 256.96pt x 256.96pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-3-c-lines.png Graphic file (type png)
 
@@ -2132,7 +2132,7 @@ puter-Vision/PS1-all/PS1-images/ps1-3-c-lines.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-3-c-lines.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-3-c-lines.png used on in
-put line 189.
+put line 191.
 (pdftex.def)             Requested size: 221.33025pt x 221.32687pt.
  [4 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Comp
 uter-Vision/PS1-all/PS1-images/ps1-3-a-image-noisy-smoothed.png (PNG copy)> </U
@@ -2141,7 +2141,7 @@ sion/PS1-all/PS1-images/ps1-3-b-edges.png (PNG copy)> </Users/melisandezonta/Do
 cuments/Documents/GTL_courses_second_semester/Computer-Vision/PS1-all/PS1-image
 s/ps1-3-b-edges-image-noisy.png (PNG copy)>]
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-4-a-image-noisy-smoothed.png, id=144, 685.56125p
+-Vision/PS1-all/PS1-images/ps1-4-a-image-noisy-smoothed.png, id=149, 685.56125p
 t x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-4-a-image-noisy-smoothed.png Graphic file (
@@ -2151,14 +2151,14 @@ type png)
 uter-Vision/PS1-all/PS1-images/ps1-4-a-image-noisy-smoothed.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-4-a-image-noisy-smoothed
-.png used on input line 210.
+.png used on input line 212.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
  [5 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Comp
 uter-Vision/PS1-all/PS1-images/ps1-3-c-accu-circled.png (PNG copy)> </Users/mel
 isandezonta/Documents/Documents/GTL_courses_second_semester/Computer-Vision/PS1
 -all/PS1-images/ps1-3-c-lines.png (PNG copy)>]
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-4-b-image-noisy-edges.png, id=150, 685.56125pt x
+-Vision/PS1-all/PS1-images/ps1-4-b-image-noisy-edges.png, id=155, 685.56125pt x
  513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-4-b-image-noisy-edges.png Graphic file (typ
@@ -2168,11 +2168,11 @@ e png)
 uter-Vision/PS1-all/PS1-images/ps1-4-b-image-noisy-edges.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-4-b-image-noisy-edges.pn
-g used on input line 223.
+g used on input line 224.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-4-c-accu-circled.png, id=151, 181.67876pt x 1713
+-Vision/PS1-all/PS1-images/ps1-4-c-accu-circled.png, id=156, 181.67876pt x 1713
 .40125pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-4-c-accu-circled.png Graphic file (type png
@@ -2182,11 +2182,11 @@ puter-Vision/PS1-all/PS1-images/ps1-4-c-accu-circled.png Graphic file (type png
 uter-Vision/PS1-all/PS1-images/ps1-4-c-accu-circled.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-4-c-accu-circled.png use
-d on input line 235.
+d on input line 236.
 (pdftex.def)             Requested size: 23.46658pt x 221.32687pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-4-c-lines.png, id=152, 685.56125pt x 513.92pt>
+-Vision/PS1-all/PS1-images/ps1-4-c-lines.png, id=157, 685.56125pt x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-4-c-lines.png Graphic file (type png)
 
@@ -2194,14 +2194,14 @@ puter-Vision/PS1-all/PS1-images/ps1-4-c-lines.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-4-c-lines.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-4-c-lines.png used on in
-put line 236.
+put line 237.
 (pdftex.def)             Requested size: 295.24586pt x 221.32687pt.
  [6 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Comp
 uter-Vision/PS1-all/PS1-images/ps1-4-a-image-noisy-smoothed.png (PNG copy)> </U
 sers/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer-Vi
 sion/PS1-all/PS1-images/ps1-4-b-image-noisy-edges.png (PNG copy)>]
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-5-image-noisy-smoothed.png, id=160, 685.56125pt 
+-Vision/PS1-all/PS1-images/ps1-5-image-noisy-smoothed.png, id=165, 685.56125pt 
 x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-5-image-noisy-smoothed.png Graphic file (ty
@@ -2211,11 +2211,11 @@ pe png)
 uter-Vision/PS1-all/PS1-images/ps1-5-image-noisy-smoothed.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-5-image-noisy-smoothed.p
-ng used on input line 256.
+ng used on input line 257.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-5-edges-image-noisy.png, id=161, 685.56125pt x 5
+-Vision/PS1-all/PS1-images/ps1-5-edges-image-noisy.png, id=166, 685.56125pt x 5
 13.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-5-edges-image-noisy.png Graphic file (type 
@@ -2225,11 +2225,11 @@ png)
 uter-Vision/PS1-all/PS1-images/ps1-5-edges-image-noisy.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-5-edges-image-noisy.png 
-used on input line 257.
+used on input line 258.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-5-circles.png, id=162, 685.56125pt x 513.92pt>
+-Vision/PS1-all/PS1-images/ps1-5-circles.png, id=167, 685.56125pt x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-5-circles.png Graphic file (type png)
 
@@ -2237,10 +2237,10 @@ puter-Vision/PS1-all/PS1-images/ps1-5-circles.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-5-circles.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-5-circles.png used on in
-put line 259.
+put line 260.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 255--262
+Overfull \hbox (24.0pt too wide) in paragraph at lines 256--263
  [] 
  []
 
@@ -2255,7 +2255,7 @@ image-noisy.png (PNG copy)> </Users/melisandezonta/Documents/Documents/GTL_cour
 ses_second_semester/Computer-Vision/PS1-all/PS1-images/ps1-5-circles.png (PNG c
 opy)>]
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-6-a-edges.png, id=174, 685.56125pt x 513.92pt>
+-Vision/PS1-all/PS1-images/ps1-6-a-edges.png, id=179, 685.56125pt x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-6-a-edges.png Graphic file (type png)
 
@@ -2263,11 +2263,11 @@ puter-Vision/PS1-all/PS1-images/ps1-6-a-edges.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-6-a-edges.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-6-a-edges.png used on in
-put line 289.
+put line 291.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-6-a-lines.png, id=175, 685.56125pt x 513.92pt>
+-Vision/PS1-all/PS1-images/ps1-6-a-lines.png, id=180, 685.56125pt x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-6-a-lines.png Graphic file (type png)
 
@@ -2275,16 +2275,16 @@ puter-Vision/PS1-all/PS1-images/ps1-6-a-lines.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-6-a-lines.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-6-a-lines.png used on in
-put line 290.
+put line 292.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 288--293
+Overfull \hbox (24.0pt too wide) in paragraph at lines 290--295
  [] 
  []
 
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-6-c-lines.png, id=176, 685.56125pt x 513.92pt>
+-Vision/PS1-all/PS1-images/ps1-6-c-lines.png, id=181, 685.56125pt x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-6-c-lines.png Graphic file (type png)
 
@@ -2292,14 +2292,14 @@ puter-Vision/PS1-all/PS1-images/ps1-6-c-lines.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-6-c-lines.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-6-c-lines.png used on in
-put line 312.
+put line 315.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
  [9 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Comp
 uter-Vision/PS1-all/PS1-images/ps1-6-a-edges.png (PNG copy)> </Users/melisandez
 onta/Documents/Documents/GTL_courses_second_semester/Computer-Vision/PS1-all/PS
 1-images/ps1-6-a-lines.png (PNG copy)>]
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-7-image-noisy-smoothed.png, id=182, 685.56125pt 
+-Vision/PS1-all/PS1-images/ps1-7-image-noisy-smoothed.png, id=187, 685.56125pt 
 x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-7-image-noisy-smoothed.png Graphic file (ty
@@ -2309,11 +2309,11 @@ pe png)
 uter-Vision/PS1-all/PS1-images/ps1-7-image-noisy-smoothed.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-7-image-noisy-smoothed.p
-ng used on input line 325.
+ng used on input line 329.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-7-edges-image-noisy.png, id=183, 685.56125pt x 5
+-Vision/PS1-all/PS1-images/ps1-7-edges-image-noisy.png, id=188, 685.56125pt x 5
 13.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-7-edges-image-noisy.png Graphic file (type 
@@ -2323,11 +2323,11 @@ png)
 uter-Vision/PS1-all/PS1-images/ps1-7-edges-image-noisy.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-7-edges-image-noisy.png 
-used on input line 326.
+used on input line 330.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-7-circles.png, id=184, 685.56125pt x 513.92pt>
+-Vision/PS1-all/PS1-images/ps1-7-circles.png, id=189, 685.56125pt x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-7-circles.png Graphic file (type png)
 
@@ -2335,17 +2335,17 @@ puter-Vision/PS1-all/PS1-images/ps1-7-circles.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-7-circles.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-7-circles.png used on in
-put line 328.
+put line 332.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 324--330
+Overfull \hbox (24.0pt too wide) in paragraph at lines 328--334
  [] 
  []
 
 [10 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Comp
 uter-Vision/PS1-all/PS1-images/ps1-6-c-lines.png (PNG copy)>]
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-8-image-noisy-smoothed.png, id=190, 685.56125pt 
+-Vision/PS1-all/PS1-images/ps1-8-image-noisy-smoothed.png, id=195, 685.56125pt 
 x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-8-image-noisy-smoothed.png Graphic file (ty
@@ -2355,11 +2355,11 @@ pe png)
 uter-Vision/PS1-all/PS1-images/ps1-8-image-noisy-smoothed.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-8-image-noisy-smoothed.p
-ng used on input line 344.
+ng used on input line 348.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-8-edges-image-noisy.png, id=191, 685.56125pt x 5
+-Vision/PS1-all/PS1-images/ps1-8-edges-image-noisy.png, id=196, 685.56125pt x 5
 13.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-8-edges-image-noisy.png Graphic file (type 
@@ -2369,11 +2369,11 @@ png)
 uter-Vision/PS1-all/PS1-images/ps1-8-edges-image-noisy.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-8-edges-image-noisy.png 
-used on input line 345.
+used on input line 349.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
 </Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Computer
--Vision/PS1-all/PS1-images/ps1-8-circles.png, id=192, 685.56125pt x 513.92pt>
+-Vision/PS1-all/PS1-images/ps1-8-circles.png, id=197, 685.56125pt x 513.92pt>
 File: /Users/melisandezonta/Documents/Documents/GTL_courses_second_semester/Com
 puter-Vision/PS1-all/PS1-images/ps1-8-circles.png Graphic file (type png)
 
@@ -2381,10 +2381,10 @@ puter-Vision/PS1-all/PS1-images/ps1-8-circles.png Graphic file (type png)
 uter-Vision/PS1-all/PS1-images/ps1-8-circles.png>
 Package pdftex.def Info: /Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-8-circles.png used on in
-put line 347.
+put line 351.
 (pdftex.def)             Requested size: 221.32687pt x 165.91632pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 343--349
+Overfull \hbox (24.0pt too wide) in paragraph at lines 347--353
  [] 
  []
 
@@ -2400,18 +2400,18 @@ GTL_courses_second_semester/Computer-Vision/PS1-all/PS1-images/ps1-8-edges-imag
 e-noisy.png (PNG copy)> </Users/melisandezonta/Documents/Documents/GTL_courses_
 second_semester/Computer-Vision/PS1-all/PS1-images/ps1-8-circles.png (PNG copy)
 >] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 0FC223099DF79ED9E39836D9C4907B3C;1437.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 366.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 370.
  ) 
 Here is how much of TeX's memory you used:
  24656 strings out of 492995
@@ -2421,17 +2421,22 @@ Here is how much of TeX's memory you used:
  51438 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,13n,77p,663b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri12
-.pfb>
-Output written on report.pdf (14 pages, 3695107 bytes).
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+17/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/l
+m/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi8.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/mathabx-type1/matha10.pfb>
+Output written on report.pdf (14 pages, 3730267 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
+ 264 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
  47 named destinations out of 1000 (max. 500000)
  300 words of extra memory for PDF output out of 10000 (max. 10000000)
 
