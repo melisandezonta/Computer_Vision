@@ -110,8 +110,8 @@
  \begin{figure}[H]
 \begin{center}
 \begin{tabular}{cc}
-	\includegraphics[height=.3\textwidth]{ps1-1-a-original.png}&
-	\includegraphics[height=.3\textwidth]{ps1-1-a-edges.png}\\
+	\includegraphics[width=.5\textwidth]{ps1-1-a-original.png}&
+	\includegraphics[width=.5\textwidth]{ps1-1-a-edges.png}\\
 	a&b
 \end{tabular}
 \end{center}
@@ -145,7 +145,7 @@ The Figure 2-c is the result of the voting in the accumulator and the figure 2-d
 In order to get the finest detection possible, a choice was made on the bins size.
 
 Concerning $\theta$  the length of the bin is $$\frac{180}{grid_{size}} + 1$$.
-Concerning $d$, the range for values varies from $-d_{max} to {d_max} with $$d_max = \sqrt{m^2+n^2}$, m the number of rows of the image and the number of columns. Hence the length of the bin is $2 \times d_{max}+1$.
+Concerning $d$, the range for values varies from $-d_{max}$ to ${d_{max}}$ with $$d_max = \sqrt{m^2+n^2}$$, $m$ the number of rows of the image and $n$ the number of columns. Hence the length of the bin is $2 \times d_{max}+1$.
 
 The image being a 256px square, the maximum value of d is the diagonal, around 362. Thus the choices we made for the bin result in a rectangular accumulator.
 
