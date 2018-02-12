@@ -17,12 +17,11 @@ plt.subplot(2,2,2)
 plt.imshow(img_right, cmap="gray")
 plt.draw()
 
-D_L = disparity_ssd(img_left, img_right, 5, True)        # left to right
-D_R = disparity_ssd(img_right, img_left, 5, False) # right to left
+D_L = disparity_ssd(img_left,  img_right, 9, 5, 0) # left to right
+D_R = disparity_ssd(img_right, img_left,  9, 5, 1) # right to left
 
-
-D_L = np.matrix([(d - np.min(D_L)) / (np.max(D_L) - np.min(D_L)) * 255 for d in D_L])
-D_R = np.matrix([(d - np.min(D_R)) / (np.max(D_R) - np.min(D_R)) * 255 for d in D_R])
+D_L = cv2.normalize(D_L, D_L, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8U)
+D_R = cv2.normalize(D_R, D_R, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8U)
 
 plt.subplot(2, 2, 3)
 plt.imshow(D_L, cmap="gray")
