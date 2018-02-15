@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.1}{Implementation of the SSD match algorithm}{}% 1
+\BOOKMARK [1][-]{section.2}{Test on original images}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Application of the SSD algorithm}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Comparison of the results with the ground truth}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Robustness of the SSD algorithm to certain perturbations}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Add of Gaussian noise of noise}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Increasing of the contrast}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Implementation of the normalized correlation}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Application of the algorithm}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Robustness Tests}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Final Test on other images}{}% 11
