@@ -14,18 +14,6 @@
 
 \usepackage{epstopdf}
 
-
-%\hypersetup{	
-%colorlinks=true,   %colorise les liens 
-%breaklinks=true,  %permet le retour à la ligne dans les liens trop longs 
-%urlcolor= blue,    %couleur des hyperliens 
-%linkcolor= black, %couleur des liens internes 
-%citecolor=black,	 %couleur des références 
-%pdftitle={Compte rendu \emph{Traitement numérique du signal}, %informations apparaissant dans 
-%pdfauthor={Mélisande Zonta}, %les informations du document 
-%pdfsubject={Projet TNS2}	%sous Acrobat. 
-%} 
-
 %% Math Packages 
 \usepackage{amsmath}
 \usepackage{amsthm}
@@ -103,8 +91,6 @@
 \tableofcontents
 \clearpage
 
-
-
 \section{Implementation of the SSD match algorithm}
 
 The Figure 1 a. and b. show respectively the left to right and right to left disparity results using the SSD scoring method.
@@ -141,17 +127,11 @@ The Figure 1 a. and b. show respectively the left to right and right to left dis
 \label{ps2-1}
 \end{figure}
 
-The Figure 2 a. and b.show the result of the same algorithm, this time applied to the real picture of the artist?s workshop.
+The Figure 2 a. and b. are the result of the same algorithm applied to the real picture of the artist?s workshop.
 
 The images were obtained for a window size of 9 pixels and a maximum measured disparity of 100 pixels.
 
-First we notice that our results for the left to right and right to left disparity images are consistent. We more or less get the same output, with a darker region on one of the side, which is due to the fact that we cannot compute the disparity on one edge, because the corresponding pixels actually lie outside our target image.
-
-What?s more, we can say that most portions of our disparity maps match the ground truth, especially for large objects. Thinner objects such as the pens and paintbrushes? handles do not get matched. The main reason is that the window in this case covers areas located at varying depth, which makes it difficult to find a match. The larger brush, on the left, is better covered.
-
-The same issue arises regarding the vertical bars supporting the red rings in the back, but with an additional issue due to the repeating background which makes it difficult to distinguish the individual bars.
-
-The rest of the objects, including the ring, seem to get a reasonable disparity value, which is why we decided to keep this window size that gives pretty good results.
+Our results are quite reassuring since the left to right and right to left disparity images are quite similar. We more or less get the same output, with a darker region on one of the side, which is due to the fact that we cannot compute the disparity on one edge, because the corresponding pixels actually lie outside our target image.
 
 \subsection{Comparison of the results with the ground truth}
 
@@ -167,6 +147,12 @@ The rest of the objects, including the ring, seem to get a reasonable disparity 
 \textit{a}. ps2-2-b : Ground Truth Left Image.  \textit{b}.  ps2-2-b : Ground Truth Right Image. }
 \label{ps2-1}
 \end{figure}
+
+Most portions of our disparity maps match the ground truth, especially for large objects. The pens and paintbrushes' handles do not match. The main reason is that the window in this case covers areas located at varying depth, which makes it difficult to find a match. The larger brush, on the left, is better represented.
+
+The same issue arises regarding the vertical bars supporting the red rings in the back, but with an additional issue due to the repeating background which makes it difficult to distinguish the individual bars.
+
+In the end since the objects get a reasonable disparity value, this window size will be used for the next tests.
 
 \section{Robustness of the SSD algorithm to certain perturbations}
 
@@ -321,6 +307,14 @@ If the setup is more favorable, this should not be a problem, especially conside
 \end{figure}
 
 
+The images presented in Figure 8.a. and b. correspond to the results obtained without noise and using the same parameters as previously.
+
+We see that the resulting disparity maps are a lot less accurate than what was obtained on the previous set of images.
+
+This is mostly due to the numerous horizontal patterns seen in the windows, cushions and wood strips in the background, which cause the algorithm to fail at finding the good matches in those areas.
+
+However, we can still see that larger objects such as the red piece on the left and the bottle, are effectively detected with higher disparities, placing the in the forefront, as in the ground truth image.
+
  \begin{figure}[H]
 \begin{center}
 \begin{tabular}{cc}
@@ -333,6 +327,13 @@ If the setup is more favorable, this should not be a problem, especially conside
 \textit{a}. ps2-5-corr : Original left to right image.  \textit{b}. ps2-5-corr : Original right to left image. }
 \label{ps2-1}
 \end{figure}
+
+The results 9.a. and b. are using cross-correlation.
+
+As explained in the sections above, a pre-processing or a post-processing on the disparity maps may well be necessary in order to correct the different flaws that could affect a real image.
+
+Smoothing could probably solve some of the effect of the Gaussian noise, although a pre-computing smoothing could also be applied beforehand, to further reduce those defects.
+
 
 % Ground truth
 
@@ -356,8 +357,8 @@ If the setup is more favorable, this should not be a problem, especially conside
 \begin{figure}[H]
 \begin{center}
 \begin{tabular}{cc}
-	\includegraphics[width=.5\textwidth]{ps2-5-noise-ssd-lefttoright.png}&
-	\includegraphics[width=.5\textwidth]{ps2-5-noise-ssd-righttoleft.png}\\
+	\includegraphics[width=.5\textwidth]{ps2-5-blur-ssd-lefttoright.png}&
+	\includegraphics[width=.5\textwidth]{ps2-5-blur-ssd-righttoleft.png}\\
 	a&b
 \end{tabular}
 \end{center}
@@ -370,8 +371,8 @@ If the setup is more favorable, this should not be a problem, especially conside
  \begin{figure}[H]
 \begin{center}
 \begin{tabular}{cc}
-	\includegraphics[width=.5\textwidth]{ps2-5-noise-corr-lefttoright.png}&
-	\includegraphics[width=.5\textwidth]{ps2-5-noise-corr-righttoleft.png}\\
+	\includegraphics[width=.5\textwidth]{ps2-5-blur-corr-lefttoright.png}&
+	\includegraphics[width=.5\textwidth]{ps2-5-blur-corr-righttoleft.png}\\
 	a&b
 \end{tabular}
 \end{center}
@@ -380,6 +381,8 @@ If the setup is more favorable, this should not be a problem, especially conside
 \label{ps2-1}
 \end{figure}
 
+We applied a gaussian smoothing with window size 5.
+The results obtained after smoothing are quite similar with the original images for either the SSD processing or the cross correlation one.
 % Contrast on both images
 
 \begin{figure}[H]
@@ -391,7 +394,7 @@ If the setup is more favorable, this should not be a problem, especially conside
 \end{tabular}
 \end{center}
 \caption{ 
-\textit{a}. ps2-5-ssd-contrast : Left to right image after blurring.  \textit{b}. ps2-5-ssd-contrast: Right to left image after blurring. }
+\textit{a}. ps2-5-ssd-contrast : Left to right image after contrast enhancement.  \textit{b}. ps2-5-ssd-contrast: Right to left image after contrast enhancement. }
 \label{ps2-1}
 \end{figure}
 
@@ -405,9 +408,10 @@ If the setup is more favorable, this should not be a problem, especially conside
 \end{tabular}
 \end{center}
 \caption{ 
-\textit{a}. ps2-5-corr-contrast : Left to right image after blurring.  \textit{b}. ps2-5-corr-contrast: Right to left image after blurring. }
+\textit{a}. ps2-5-corr-contrast : Left to right image after contrast enhancement.  \textit{b}. ps2-5-corr-contrast: Right to left image after contrast enhancement. }
 \label{ps2-1}
 \end{figure}
 
+The results available in Figure 16 a. and b. finally show the effect of multiplication (contrast enhancement), with a patchy effect, especially in zones with very smooth disparity as the background wooden part. This time we applied the contrast enhancement for both images but we don't see a real improvement compared to a single application.
 
 \end{document}
