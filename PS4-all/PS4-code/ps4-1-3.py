@@ -1,5 +1,6 @@
 import os
 import cv2
+import time
 from matplotlib import pyplot as plt
 import numpy as np
 from Functions import compute_gradients, Harris_corner_response, Harris_thresholding,colors_scaling, non_maxima_suppression, corners_markers
@@ -29,7 +30,7 @@ for i in range(len(images)):
     # Window chosen as a smoother Gaussian that is higher at the middle and falls off gradually
 
     window = cv2.getGaussianKernel(5, -1) * cv2.getGaussianKernel(5, -1).T
-
+    start_time = time.time()
     # Compute the Harris corner function
 
     R = Harris_corner_response(Ix,Iy,0.04,window)
@@ -46,6 +47,8 @@ for i in range(len(images)):
     # Non maxima suppression on the Harris corner function
 
     corners = non_maxima_suppression(Rt, 11)
+
+    print("{} seconds".format(time.time() - start_time))
 
     print("Found {} corners in {} !".format(len(corners), images[i]))
 

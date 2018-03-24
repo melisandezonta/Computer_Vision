@@ -22,7 +22,6 @@ for i in range(len(images)):
 
     # Computing X and Y gradient
 
-    I = np.zeros([m, 2 * n]) # gradients in both directions will be concatenated
     Ix, Iy = compute_gradients(image, 3)
 
 

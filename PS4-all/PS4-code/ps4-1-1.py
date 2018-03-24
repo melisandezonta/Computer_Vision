@@ -17,10 +17,7 @@ m_b, n_b = image_b.shape
 
 
 # Computing X and Y gradient
-I_a = np.zeros([m_a, 2 * n_a]) # gradients in both directions will be concatenated
 Ix_a, Iy_a = compute_gradients(image_a, 3)
-
-I_b = np.zeros([m_b, 2 * n_b]) # gradients in both directions will be concatenated
 Ix_b, Iy_b = compute_gradients(image_b, 3)
 
 # Scaling the output values of the gradients

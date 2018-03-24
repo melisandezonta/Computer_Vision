@@ -74,9 +74,9 @@ plt.title("{} and {} pair with {} marked matches".format(images[0], images[1], l
 plt.imshow(cv2.cvtColor(result_image_1, cv2.COLOR_BGR2RGB))
 cv2.imwrite("ps4-2-2-{}-{}.png".format(images[0], images[1]), result_image_1)
 plt.subplot(2,1,2)
-plt.title("{} and {} pair with {} marked matches".format(images[0], images[1], len(matches_image_2)))
+plt.title("{} and {} pair with {} marked matches".format(images[2], images[3], len(matches_image_2)))
 plt.imshow(cv2.cvtColor(result_image_2, cv2.COLOR_BGR2RGB))
-cv2.imwrite("ps4-2-2-{}-{}.png".format(images[0], images[1]), result_image_2)
+cv2.imwrite("ps4-2-2-{}-{}.png".format(images[2], images[3]), result_image_2)
 
 plt.draw()
 

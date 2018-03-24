@@ -52,7 +52,7 @@ for i in range(len(images)):
     result = directions(image, corners, angles , 15)
 
     plt.subplot(2, 2, i + 1)
-    plt.title("{} with {} marked corners".format(images[i], len(corners)))
+    plt.title("{} with {} markers directions".format(images[i], len(corners)))
     plt.imshow(cv2.cvtColor(result, cv2.COLOR_BGR2RGB))
     cv2.imwrite("ps4-2-1-{}.png".format(images[i]), result)
 
