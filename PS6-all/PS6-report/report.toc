@@ -1,0 +1,13 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Particle Filter Tracking}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}First Tracking}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Window Size Discussion}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}MSE Standard Deviation Discussion}{8}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Particle Number Discussion}{10}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Noisy Tracking on Romney}{12}{subsection.1.5}
+\contentsline {section}{\numberline {2}Appearance Model Update}{15}{section.2}
+\contentsline {subsection}{\numberline {2.1}Appearance Model Update}{15}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Noisy Tracking on Romney's Hand}{17}{subsection.2.2}
+\contentsline {section}{\numberline {3}Incorporating More Dynamics}{19}{section.3}
+\contentsline {subsection}{\numberline {3.1}Pedestrian Tracking}{19}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Pedestrian Tracking Optimization}{21}{subsection.3.2}
